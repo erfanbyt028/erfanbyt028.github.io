@@ -1,0 +1,108 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+}
+body
+{
+    background-color: #e6e2d3;
+    direction: rtl;
+    /* width: 100%;
+    height: 750px; */
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url('../../images/bbgg.jpg');
+    background-repeat: repeat;
+    background-size:cover ;
+    background-position: center;
+}
+.box
+{
+    margin: 50px 570px;
+    width: 400px;
+    height: 670px;
+    background-color:#BFCFE7;
+    box-shadow: 10px 10px 15px #B5C0D0;
+    text-align: center;
+    border: 3px solid #96B6C5;
+    border-radius: 15px;
+    background: transparent;
+            border: 2px solid rgba(255,255,255,.2);
+            backdrop-filter: blur(20px);
+    
+}
+.top
+{      
+    height: 150px;   
+}
+.top p
+{
+    margin-top: 15px;
+    font-weight: 800;
+    font-size: x-large;
+}
+.top a
+{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: var(--text-dark);
+    text-decoration: none;
+    color: black;
+    letter-spacing: 3px;
+    transition: 0.25s;
+}
+.top img
+{
+    max-width: 60px;
+    border-radius: 5px;
+}
+.logo
+{
+    margin-right: 120px;
+    padding-top: 25px;
+}
+
+    /* bottom */
+
+/* .bottom
+{
+    
+} */
+
+input
+{
+    /* height: 35px;
+    width: 220px;
+    border-radius: 40px; */
+    width: 80%;
+            height: 100%;
+            background: transparent;
+            border: none;
+            outline: none;
+            border: 2px solid rgba(5, 0, 0, 0.2);
+            border-radius: 40px;
+            font-size: 16px;
+            color: black;
+            height: 40px;
+            font-size: 28;
+    
+}
+.sumbit
+{
+    background-color: #92C7CF;
+    height: 35px;
+    width: 230px;
+    border-radius: 40px;
+    width: 80%;
+    height: 40px;
+}
+input::placeholder
+{
+    padding-right: 10px;
+    font-weight: 500;
+    color: black;
+    font-size: 28;
+}
