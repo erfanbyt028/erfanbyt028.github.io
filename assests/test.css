@@ -1,0 +1,35 @@
+div
+{
+    border: 2px solid black;
+    width: 200px;
+    height: 200px;
+}
+
+.t1
+{
+    background-color: #FF0000;
+}
+.t2
+{
+    background-color: #C80036;
+}
+.t3
+{
+    background-color: #E72929;
+}
+.t4
+{
+    background-color: #FF4C29;
+}
+.t5
+{
+    background-color: #ff0000;
+}
+.t6
+{
+    background-color: #ff6347;
+}
+.t7
+{
+    background-color: #c233e6;
+}
