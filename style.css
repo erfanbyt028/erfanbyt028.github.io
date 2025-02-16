@@ -233,6 +233,7 @@ ul {
     }
 
     .header_content {
+        margin-top:30px;
         font-size: 0.9rem;
     }
 }
