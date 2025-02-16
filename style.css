@@ -216,7 +216,7 @@ ul {
 
     /* Header Content */
     .header_content {
-        padding: 0 20px;
+        padding: 80px 20px 0; /* اضافه کردن padding-top برای فاصله از نوار ناوبری */
     }
 }
 
@@ -233,8 +233,8 @@ ul {
     }
 
     .header_content {
-        margin-top:30px;
         font-size: 0.9rem;
+        padding: 60px 20px 0; /* کاهش padding-top برای دستگاه‌های کوچک‌تر */
     }
 }
 
